@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
-import BlogDetailComponent from "../components/BlogDetailComponent";
-import RelatedPostsComponent from "../components/RelatedPostsComponent";
+import BlogDetailComponent from "../../components/BlogDetailComponent";
+import RelatedPostsComponent from "../../components/RelatedPostsComponent";
 
 const BlogsDetails = () => {
     return (

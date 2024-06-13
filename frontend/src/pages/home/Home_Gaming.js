@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Blog from '../components/Blog';
-import Newsletter from "../components/Newsletter";
+import Blog from '../../components/Blog';
+import Newsletter from "../../components/Newsletter";
 
 import wpost01 from "../assets/img/blog/weekly_post01.jpg";
 import wpost02 from "../assets/img/blog/weekly_post02.jpg";
@@ -17,7 +17,7 @@ import ca03 from "../assets/img/blog/g_categories_img03.png";
 import ca04 from "../assets/img/blog/g_categories_img04.png";
 import ca05 from "../assets/img/blog/g_categories_img05.png";
 import ca06 from "../assets/img/blog/g_categories_img06.png";
-import CryptoCurrency from "../components/CryptoCurrency";
+import CryptoCurrency from "../../components/CryptoCurrency";
 
 const Home = () => {
     const categoryName = "Home";

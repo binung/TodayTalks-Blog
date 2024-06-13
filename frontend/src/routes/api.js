@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api', // Laravel API base URL
+    baseURL: `${process.env.REACT_APP_API_URL}/api`, // Laravel API base URL
 });
 
 export const getTest = () => api.get('/admin/test');

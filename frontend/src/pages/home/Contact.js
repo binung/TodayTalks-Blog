@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import Blog from '../components/Blog';
-import Newsletter from "../components/Newsletter";
+import Newsletter from "../../components/Newsletter";
 import LocationIcon from "../assets/img/icon/contact_icon01.svg";
 import MailIcon from "../assets/img/icon/contact_icon02.svg";
 import PhoneIcon from "../assets/img/icon/contact_icon03.svg";

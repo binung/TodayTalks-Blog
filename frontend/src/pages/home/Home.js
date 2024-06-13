@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Blog from '../components/Blog';
-import Newsletter from "../components/Newsletter";
-import CryptoCurrency from "../components/CryptoCurrency";
+import Blog from '../../components/Blog';
+import Newsletter from "../../components/Newsletter";
+import CryptoCurrency from "../../components/CryptoCurrency";
 
 // import wpost01 from "../assets/img/blog/weekly_post01.jpg";
 import wpost02 from "../assets/img/blog/weekly_post02.jpg";
@@ -20,7 +20,7 @@ import vpost04 from "../assets/img/blog/video_post04.jpg";
 // import ca05 from "../assets/img/blog/g_categories_img05.png";
 // import ca06 from "../assets/img/blog/g_categories_img06.png";
 // import Entertainment from "./Entertainment";
-import { getTest } from "../routes/api";
+import { getTest } from "../../routes/api";
 
 const Home = (props) => {
     const categoryName = "Home";

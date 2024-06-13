@@ -6,15 +6,18 @@ const FullLayout = lazy(() => import("../layouts/FullLayout.js"));
 
 /***** Pages ****/
 
-const Home = lazy(() => import("../views/Home.js"));
-const Entertainment = lazy(() => import("../views/Entertainment.js"));
-const Economics = lazy(() => import("../views/Economics.js"));
-const Sports = lazy(() => import("../views/Sports.js"));
-const Politics = lazy(() => import("../views/Politics.js"));
-const BlogLayout3 = lazy(() => import("../views/BlogLayout3.js"));
-const BlogsDetails = lazy(() => import("../views/BlogsDetailsPage.js"));
-const Contact = lazy(() => import("../views/Contact.js"));
-const About = lazy(() => import("../views/AboutUs.js"));
+const Home = lazy(() => import("../pages/home/Home.js"));
+const Entertainment = lazy(() => import("../pages/home/Entertainment.js"));
+const Economics = lazy(() => import("../pages/home/Economics.js"));
+const Sports = lazy(() => import("../pages/home/Sports.js"));
+const Politics = lazy(() => import("../pages/home/Politics.js"));
+const BlogLayout3 = lazy(() => import("../pages/home/BlogLayout3.js"));
+const BlogsDetails = lazy(() => import("../pages/home/BlogsDetailsPage.js"));
+const Contact = lazy(() => import("../pages/home/Contact.js"));
+const About = lazy(() => import("../pages/home/AboutUs.js"));
+
+const Login = lazy(()=>import("../pages/auth/loginPage.js"));
+const Register = lazy(()=>import("../pages/auth/registerPage.js"));
 
 /*****Routes******/
 
@@ -23,6 +26,8 @@ const ThemeRoutes = [
     path: "/",
     element: <FullLayout />,
     children: [
+      { path: "/login", element: <Login /> },
+      { path: "/register", element: <Register /> },
       { path: "/", element: <Navigate to="/home" /> },
       { path: "/home", exact: true, element: <Home /> },
       { path: "/entertainment", exact: true, element: <Entertainment /> },

@@ -1,10 +1,9 @@
 import React from "react";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Blog from '../components/Blog';
-import Newsletter from "../components/Newsletter";
-
-const Sports = () => {
-    const categoryName = "Sports";
+import Blog from '../../components/Blog';
+import Newsletter from "../../components/Newsletter";
+const Entertainment = () => {
+    const categoryName = "Entertainment";
     return (
         <>
             <Blog title={categoryName} />
@@ -14,4 +13,4 @@ const Sports = () => {
     );
 };
 
-export default Sports;
+export default Entertainment;

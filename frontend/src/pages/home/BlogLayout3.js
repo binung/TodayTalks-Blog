@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import Blog from '../components/Blog';
-import Breadcrumb from "../components/Breadcrumb";
-import Newsletter from "../components/Newsletter";
+import Breadcrumb from "../../components/Breadcrumb";
+import Newsletter from "../../components/Newsletter";
 
 import post01 from "../assets/img/blog/1.jpg";
 import post02 from "../assets/img/blog/2.jpg";
